@@ -1634,7 +1634,8 @@ color: #FFF;
     transition-duration: 0.02s;
 }
 .button5:hover {
-    background-color: #200000;
+    background-color: #232323;
+    transition: 0.2s ease;
 }
 .button6:hover {
     background-color: #adff2f1c;
@@ -1902,10 +1903,7 @@ a:focus {
 }
 
 .era_center{
-	border-bottom: 1.5px #66b65b solid;
-	border-right: 1.5px #5d5bb6 solid;
-	border-top: 1px #272727 solid;
-	border-left: 1px #272727 solid;
+	border-bottom: 1px solid #f10834;
 	margin-top: 10px;
 	display: flow-root;
 	border-radius: 6px;
@@ -2518,6 +2516,7 @@ header > .nav-link.active {
     }
         #container > :nth-child(2) > :nth-child(1) > :nth-child(1) {
             background: none !important;
+            background-color: rgba(0,0,0,0) !important;
             padding: 10px !important;
         }
 
@@ -2529,21 +2528,52 @@ header > .nav-link.active {
         border-radius: 0px !important;
         border-top: 1px solid #f10834;
         border-bottom: 1px solid #f10834;
+        margin-bottom: 15px !important;
     }
         #container > :nth-child(2) > :nth-child(2) {
             padding: 10px !important;
         }
             #container > :nth-child(2) > :nth-child(2) > :nth-child(1)  {
                 background: none !important;
-                background-color: none !important;
+                background-color: rgba(0,0,0,0) !important;
                 padding: 0 !important;
                 margin: 0 !important;
             }
+            #container > :nth-child(2) > :nth-child(2) > :nth-child(3)  {
+                background: none !important;
+                background-color: rgba(0,0,0,0) !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+        
+    /* Sidebar Third Child */
+    #container > :nth-child(2) > :nth-child(3)  {
+        background: none !important;
+        background-color: #2b2b2b !important;
+        border-radius: 0px !important;
+        border-top: 1px solid #f10834;
+        border-bottom: 1px solid #f10834;
+        margin-bottom: 15px !important;
+    }
+        #container > :nth-child(2) > :nth-child(3) {
+            padding: 10px !important;
+        }
+            #container > :nth-child(2) > :nth-child(3) > :nth-child(1)  {
+                background: none !important;
+                background-color: rgba(0,0,0,0) !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+                #container > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(1)  {
+                    background: none !important;
+                    background-color: rgba(0,0,0,0) !important;
+                }
 
 /* Forum Bar */
-#container > :nth-child(3) {
+/*#container > :nth-child(3) {
     background: green !important;
 } 
+*/
 
 
 
